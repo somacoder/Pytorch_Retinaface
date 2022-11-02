@@ -4,11 +4,11 @@ channels:
   - conda-forge
   - pytorch3d
 dependencies:
-  - python=3.8
+  - python=3.9
   - pip
   - pytorch3d
   - pip:
-      - torch>=1.8.0
+      - torch
       - torchvision
       - opencv-python
       - pillow
